@@ -42,22 +42,34 @@ h2{
     font-family: 'Dela Gothic One', cursive;
 }
 .menu{
-    list-style: none;
-    position: absolute;
+    position: fixed;
     top: 10px;
-    right: 30px;
+    margin-top: 0px;
     z-index: 10;
-    cursor: pointer;
+    width: 100%;
+    background: white;
 }
 .links{
-    float: left;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
+    display: inline;
+    padding-left: 33px;
+    padding-right: 25px;
     font-size: 20px;
+    font-family: cursive;
 }
 a{
     text-decoration: none;
-    
+}
+.links :hover{
+    font-size: 25px;
+    text-decoration: underline;
+}
+#writing a{
+    text-decoration: underline !important;
+    color: green !important;
+}
+#contact{
+    background: lightgray;
+}
+.contact1 h3{
+    display: inline;
 }

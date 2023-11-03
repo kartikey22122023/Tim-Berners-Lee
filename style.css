@@ -1,7 +1,5 @@
 body{
     text-align: center;
-    padding-top: 800px ;
-    margin:0 ;
 }
 .profile{
     border-radius: 50%;
@@ -73,3 +71,4 @@ a{
 .contact1 h3{
     display: inline;
 }
+.my_nav_bar { position:sticky; top:0; z-index:99999 }

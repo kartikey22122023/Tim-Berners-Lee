@@ -4,18 +4,33 @@
     <title>Sir Tim Berners-Lee</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"> </script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <center>
-    <ul class="menu">
-        <li class="links"><a href="#welcome">Home</a></li>
-        <li class="links"><a href="#videos">Videos</a></li>
-        <li class="links"><a href="#work">Work</a></li>
-        <li class="links"><a href="#writing">Writing</a></li>
-        <li class="links"><a href="#contact">Contact</a></li>
-    </ul>
-    </center>
+    <nav class="navbar-inverse my_nav_bar">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse"
+        data-target="#myNavbar">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    </button>
+    <a class="navbar-brand" href="#">Peter Parker</a>
+      </div> 
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+            <li><a href="#welcome">Home</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#writing">Writing</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div> 
+    </nav>
+    
     <section id="welcome">
         <div class="parallax-inner">
             <img src="tim berners lee photo.jpeg" class="profile">
@@ -70,8 +85,8 @@
         <div class="line"></div>
         <br>
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d28815.414986970252!2d85.68609552637577!3d25.474117155801647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f27bc9c227b881%3A0x640ed46ff59518fa!2z4KSs4KS-4KSi4KS8IOCknOCkv-CksuCkviwg4KSs4KS_4KS54KS-4KSwIDgwMzIxMw!5e0!3m2!1shi!2sin!4v1697030160099!5m2!1shi!2sin" width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
-
-        <div class="contact1">
+        
+        <div class="contact1 col-lg-6 col-md-6 col-sm-6 col-xs-12" >
             <a href="mailto:someone@example.com?subject=hello">
                 <i class="fa fa-envelope"></i>&nbsp;&nbsp;
                 <h3>maalaxmi.airtel@gmail.com</h3>
@@ -81,11 +96,8 @@
             <a href="#">
             <i class="fa fa-instagram"></i>&nbsp;&nbsp;
             <h3>kartikey_boss_stylish_700</h3>           
-             </a>
-
-            
+             </a>   
         </div>
     </section>   
 </body>
-
 </html>
